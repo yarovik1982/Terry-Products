@@ -1,9 +1,41 @@
+@media(max-width:1171px){
+   .banner-form__title{
+      font-size: 43px;
+   }
+  
+}
 @media(max-width:1046px){
    .hero__button-callback {
       margin-top: 20px;
    }
+   .banner-form__title{
+      font-size: 36px;
+   }
 }
-@media(max-width:768px){
+@media(max-width:993px){
+   .row__bottom-title{
+      text-align: center;
+      margin-top: 20px;
+   }
+   .row__bottom{
+      margin-top: 10vw;
+   }
+}
+@media(max-width:945px){
+   .banner-form__bg{
+      background-size: cover;
+   }
+}
+@media(max-width:890px){
+   .banner-form__title{
+      font-size: 30px;
+   }
+   .section-title{
+      font-size: 40px;
+   }
+  
+}
+@media(max-width:769px){
    .hero__button-callback {
       margin-top: 0;
    }
@@ -11,12 +43,36 @@
       margin-bottom: 70px;
    }
    .hero__title{
-      font-size: 38px;
+      font-size: 36px;
    }
    .full-container__bg {
       min-height: 1223px;
       background-size: 40%, 60%;
       background-position-x: 50%,100%;
+   }
+   .banner-form__input{
+      margin-bottom: 10px;
+   }
+   .section-title{
+      font-size: 34px;
+   }
+   .banner__bg h5{
+      font-size: 2em;
+   }
+   .banner__button{
+      font-size: 24px;
+   }
+   .banner-form-order__title {
+      font-size: 28px;
+   }
+   .banner-form-order__text {
+      font-size: 16px;
+   }
+   .info__span{
+      font-size: 16px;
+   }
+   .info__title{
+      font-size: 30px;
    }
 }
 @media(max-width:610px){
@@ -30,8 +86,11 @@
       min-height: 1223px;
       background-size: 45%, 65%;
    }
+   .section-title{
+      font-size: 32px;
+   }
 }
-@media(max-width:570px){
+@media(max-width:571px){
    .hero__title{
       font-size: 34px;
    }
@@ -42,13 +101,25 @@
       min-height: 1223px;
       background-size: 48%, 68%;
    }
+   .section-title{
+      font-size: 28px;
+   }
 }
 @media(max-width:515px){
    .hero__title{
       font-size: 26px;
    }
-   .header.{
+   .header{
       margin-bottom: 40px;
+   }
+   .banner-form__title{
+      font-size: 22px;
+   }
+   .section-title{
+      font-size: 23px;
+   }
+   .banner-form-order__title {
+      font-size: 22px;
    }
 }
 @media(max-width:405px){
@@ -57,5 +128,11 @@
    }
    .header{
       margin-bottom: 30px;
+   }
+   .banner-form__title{
+      font-size: 22px;
+   }
+   .section-title{
+      font-size: 20px;
    }
 }
